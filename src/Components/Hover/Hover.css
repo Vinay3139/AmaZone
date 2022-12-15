@@ -1,0 +1,68 @@
+.hover {
+  width: 527px;
+  height: 327px;
+  border: 1px solid black;
+  background-color: white;
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.Sign {
+  width: 160px;
+  height: 35px;
+  background-color: orange;
+  border: none;
+}
+
+.Customer {
+  font-size: 10px;
+}
+
+.Main {
+  border: 1px solid lightgray;
+  width: 100%;
+  height: 260px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  display: flex;
+}
+
+.list {
+  width: 50%;
+  border: 1px solid lightgrey;
+  height: 260px;
+  margin-top: 3px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.Account {
+  width: 50%;
+  height: 260px;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.wishList {
+  font-size: 18px;
+}
+
+.Any {
+  font-size: 10px;
+  margin-top: 10px;
+  line-height: normal;
+}

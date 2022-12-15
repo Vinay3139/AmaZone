@@ -1,0 +1,40 @@
+.Customer_Map{
+    margin: 10px;
+}
+
+.Customer_Map h1{
+    margin-bottom: 14px;
+}
+
+.Customer_Map input{
+    width: 800px;
+    margin-top: 10px;
+    height: 25px;
+}
+
+.VoteOne{
+    width: 800px;
+    height: 80px;
+    display: flex;
+    
+}
+
+.Left_Grid{
+    border: 1px solid #565959;
+    width: 65px;
+    height: 80px;
+    text-align: center;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.AnsWer{
+    margin-left: 10px;
+    display: flex;
+}
+
+.AnswerOne{
+    margin-left: 10px;
+    display: flex;
+}

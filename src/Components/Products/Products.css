@@ -1,0 +1,45 @@
+.Single {
+  /* width: 23.2%;
+  height: 400px;
+  margin: 10px;
+  display: inline-block;
+  background-color: white;
+  color: black; */
+  width: 97.5%;
+  height: 398px;
+  margin-top: 20px;
+}
+
+.proper {
+  
+  display: flex;
+}
+
+.proper img {
+  width: 266px;
+  height: 276px;
+  object-fit: cover;
+}
+
+h3 {
+  margin-bottom: 0px;
+}
+
+a {
+  margin-left: 0px;
+}
+.ola{
+  width: 100%;
+  
+}
+.All{
+  width: 23.2%;
+  margin: 10px;
+  padding: 18px;
+  background-color: white;
+ 
+}
+
+.value_Link{
+  color: #007185;
+}

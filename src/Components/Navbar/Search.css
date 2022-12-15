@@ -1,0 +1,26 @@
+.select {
+  width: 55px;
+  height: 40px;
+  color: black;
+  border-radius: 5px 0px 0px 5px;
+  position: relative;
+    top: 0px;
+    left: 56px;
+    
+}
+
+.checkss {
+  width: 490px;
+  height: 34px;
+  
+}
+
+.fafa {
+  display: flex;
+  justify-content: center;
+  background-color: #febd68;
+  width: 55px;
+  height: 38px;
+  align-items: center;
+  margin-left: -56px;
+}

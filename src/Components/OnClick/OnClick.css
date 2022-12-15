@@ -1,0 +1,72 @@
+.click {
+  width: 97.5%;
+
+  margin: 10px;
+}
+.Beauty {
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+
+.Vitamin {
+  width: 431px;
+  margin: 15px;
+}
+
+.ProductDetail {
+  margin-left: -399px;
+  list-style: none;
+}
+
+.ProductDetail li {
+  margin-left: 10px;
+  margin: 10px;
+}
+
+.DetailKey {
+  font-weight: 550;
+  list-style: none;
+}
+
+.Money_transfer {
+  display: flex;
+  margin-top: 15px;
+}
+
+.Partner_Offer {
+  border: 1px solid #D5DBDB;
+  height: 135px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+
+.save_Extra {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #D5DBDB;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.Partner_Offer_two{
+  border: 1px solid #D5DBDB;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 5px;
+}
+
+.Bank_Offer{
+  
+  padding: 5px;
+}
+.Small{
+  width: 40px;
+}
+
+.Main{
+  width: 399px;
+  height:620px;
+}

@@ -1,0 +1,41 @@
+.Technical{
+    width: 99.9%;
+    height: 600px;
+    border: 1px solid gray;
+    background-color: white;
+    /* margin: 10px; */
+    display: flex;
+    margin-top: -20px;
+}
+
+.tablehead{
+    color: #565959;
+    width: 258px;
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    font-weight: 400;
+    height: 25px;
+    text-align: left;
+    vertical-align: top;
+    /* padding: 8px; */
+
+}
+
+.tabledata{
+    color:#333;
+    border: 1px solid #e7e7e7;
+    width: 258px;
+    border-right: none;
+    height: 25px;
+    /* padding: 8px; */
+}
+
+table{
+    border-spacing: 0;
+    width: 553px;
+    margin: 15px;
+}
+
+table hr{
+    width: 199%;
+}

@@ -1,0 +1,66 @@
+.Box {
+  width: 23.2%;
+  height: 367px;
+  margin: 10px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.first {
+  width: 42%;
+  height: 140px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.second {
+  width: 42%;
+  height: 140px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.third {
+  width: 42%;
+  height: 140px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.fourth {
+  width: 42%;
+  height: 140px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.first img {
+  height: 101px;
+  width: 100%;
+}
+
+.second img {
+  height: 101px;
+  width: 100%;
+}
+
+.third img {
+  height: 101px;
+  width: 100%;
+}
+
+.fourth img {
+  height: 101px;
+  width: 100%;
+}
+
+.Gunda {
+  margin: 10px;
+  display: flex;
+}
+
+.value_Share{
+  margin-left: 10px;
+  color: #007185;
+}

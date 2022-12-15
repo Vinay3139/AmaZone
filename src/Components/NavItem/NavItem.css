@@ -1,0 +1,22 @@
+.NAme {
+  width: 99.9%;
+  height: 39px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-evenly;
+  background-color: rgba(34, 47, 62, 255);
+  color: white;
+}
+
+.NAme li:hover {
+  background-color: #232f3e;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.NAme li {
+  border: 1px solid transparent;
+  padding: 5px 8px;
+}

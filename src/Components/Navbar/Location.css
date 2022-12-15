@@ -1,0 +1,12 @@
+.locate {
+  margin: 5px 2px 5px 19px;
+  padding: 0px 7px;
+}
+
+.SelectAddress:hover{
+   border: 1px solid white;
+}
+
+.SelectAddress{
+  border: 1px solid transparent;
+}

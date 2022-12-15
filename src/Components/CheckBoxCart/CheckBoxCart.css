@@ -1,0 +1,26 @@
+.CheckCart{
+    width: 400px;
+    height: 295px;
+    border: 1px solid  #DDD!important;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding: 8px 13px;
+    /* position: fixed;
+    top: 40px; */
+    /* position: relative; */
+}
+
+.Cart_Button{
+    width: 250px;
+    height: 34px;
+    background: #FFEC8A;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+
+.Cart_A{
+    text-decoration: none;
+    color: #007185;
+}
