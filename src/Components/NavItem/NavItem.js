@@ -7,6 +7,7 @@ export default function NavItem() {
   });
   return (
     <>
+
       <div className="NAme">
         <FaElementor />
         {Array}

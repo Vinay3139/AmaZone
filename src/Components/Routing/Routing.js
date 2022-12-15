@@ -22,14 +22,14 @@ export default function Routing(props) {
   return (
     <>
       <CountContext.Provider
-        value={{ Count: [state, setState], Function: PropsAdd }}
+        value={{ Count: [state, setState], Function: PropsAdd ,Receive:receive}}
       >
         <NavBar />
         <Routes>
           <Route path="/" element={<App />} />
           <Route
             path="/ShoppingCart/"
-            element={<ShoppingCart Receive={receive} />}
+            element={<ShoppingCart  />}
           ></Route>
           <Route path="/OnClick/:id" element={<OnClick />} />
           <Route path="/SignUp/" element={<SignUp></SignUp>}></Route>

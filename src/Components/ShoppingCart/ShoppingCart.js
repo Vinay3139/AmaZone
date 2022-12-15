@@ -1,13 +1,15 @@
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { useState } from "react";
 import { Feature } from "../../Shared/Common";
 // import TreandingList from "../TreandingList/TreandingList";
 import "./ShoppingCart.css";
+import { CountContext } from "../Routing/Routing";
 export default function ShoppingCart(props) {
   const [cartData, setCartData] = useState([]);
+  const {Receive}=useContext(CountContext)
 
   useEffect(() => {
-    return props.Receive ? setCartData(props.Receive[0]) : null;
+    return Receive ? setCartData(Receive[0]) : null;
   }, []);
 
   console.log(cartData)
