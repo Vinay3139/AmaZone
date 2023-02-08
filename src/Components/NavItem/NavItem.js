@@ -7,10 +7,11 @@ export default function NavItem() {
   });
   return (
     <>
-
-      <div className="NAme">
-        <FaElementor />
-        {Array}
+      <div className="NavItem_Media">
+        <div className="NAme">
+          <FaElementor />
+          {Array}
+        </div>
       </div>
     </>
   );

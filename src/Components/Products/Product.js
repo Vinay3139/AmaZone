@@ -8,6 +8,7 @@ export default function Product(props) {
           {ArrayDot.map(function (value) {
             return (
               <>
+                {/* <div className="Media_Box"> */}
                 <div className="Box">
                   <span>{value.head}</span>
                   <div className="first">
@@ -28,6 +29,7 @@ export default function Product(props) {
                   </div>
                   <a className="value_Share">{value.share}</a>
                 </div>
+                {/* </div> */}
               </>
             );
           })}

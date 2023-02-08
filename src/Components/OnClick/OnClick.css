@@ -70,3 +70,14 @@
   width: 399px;
   height:620px;
 }
+.GoTop{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.GoTop button{
+  background-color: red;
+  border: none;
+  height: 30px;
+  width: 80px;
+}

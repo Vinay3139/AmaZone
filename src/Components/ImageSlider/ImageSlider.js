@@ -1,4 +1,4 @@
-import SimpleImageSlider from "react-simple-image-slider"
+import SimpleImageSlider from "react-simple-image-slider";
 
 const images = [
   { url: "Images/b4.jpg" },
@@ -12,7 +12,7 @@ const images = [
 
 const ImageSlider = () => {
   return (
-    <div>
+    <div className="ImageSlider">
       <SimpleImageSlider
         width={1295}
         height={304}
@@ -22,5 +22,5 @@ const ImageSlider = () => {
       />
     </div>
   );
-}
-export default ImageSlider
+};
+export default ImageSlider;

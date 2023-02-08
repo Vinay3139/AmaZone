@@ -1,18 +1,28 @@
 import React, { useState } from "react";
 //import Register from "../RegisterPage/Register";
 import "./SignUp.css";
-import {useNavigate} from 'react-router-dom'
-
+import { useNavigate } from "react-router-dom";
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from "../../Firebase_Confiq";
 function SignUp(props) {
   const navigate = useNavigate();
   const [enteredTitle, setTitle] = useState("");
   const [enteredPassword, setPassword] = useState("");
 
-  const changeTitle = (event) => {
-    setTitle(event.target.value);
-  };
-  const changePassword = (event) => {
-    setPassword(event.target.value);
+  // const changeTitle = (event) => {
+  //   setTitle(event.target.value);
+  // };
+  // const changePassword = (event) => {
+  //   setPassword(event.target.value);
+  // };
+
+  const register = async () => {
+    const user = await createUserWithEmailAndPassword(
+      auth,
+      enteredTitle,
+      enteredPassword
+    );
+    console.log(user);
   };
 
   const submitHandler = (event) => {
@@ -22,7 +32,7 @@ function SignUp(props) {
       Name: enteredTitle,
       Password: enteredPassword,
     };
-    console.log(Data);
+    // console.log(Data);
 
     //alert("successfully logged in");
 
@@ -42,10 +52,7 @@ function SignUp(props) {
 
   return (
     <>
-     
-     
-
-        <form onSubmit={submitHandler}>
+      <form onSubmit={submitHandler}>
         <div id="page1">
           <div className="login">
             <div className="content">
@@ -57,7 +64,9 @@ function SignUp(props) {
                   type="email"
                   id="inpt2"
                   value={enteredTitle}
-                  onChange={changeTitle}
+                  onChange={(e) => {
+                    setTitle(e.target.value);
+                  }}
                 />
               </label>
               <br />
@@ -69,13 +78,15 @@ function SignUp(props) {
                   id="inpt2"
                   minlength="8"
                   value={enteredPassword}
-                  onChange={changePassword}
+                  onChange={(e) => {
+                    setPassword(e.target.value);
+                  }}
                 />
               </label>
               <br />
               <br />
               <label>
-                <button type="submit" id="inpt1">
+                <button type="submit" id="inpt1" onClick={register}>
                   Continue
                 </button>
               </label>{" "}
@@ -102,16 +113,15 @@ function SignUp(props) {
               <br />
               <br />
               <label>
-
-                <button id="inpt2" onClick={()=>navigate('/Register')}>Create your Amazone account</button>
-
+                <button id="inpt2" onClick={() => navigate("/Register")}>
+                  Create your Amazone account
+                </button>
               </label>
             </div>
           </div>
-          </div>
-        </form>{" "}
-         {/* <Register onSaveExpenseData={saveExpenseDataHandler} /> */}
-      
+        </div>
+      </form>{" "}
+      {/* <Register onSaveExpenseData={saveExpenseDataHandler} /> */}
     </>
   );
 }

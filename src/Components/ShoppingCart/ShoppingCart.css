@@ -1,10 +1,10 @@
-.shopping_Cart {
+/* .shopping_Cart {
     border: 1px solid black;
     width: 1160px;
     height: 350px;
     margin: 20px;
     padding: 20px;
-  }
+  } */
   
   .shopping_Cart h1 {
     font-size: 28px;
@@ -37,12 +37,12 @@
     display: flex;
   }
   
-  .cart_Sub_Total {
+  /* .cart_Sub_Total {
     border: 1px solid black;
     width: 300px;
     height: 100px;
     margin: 20px 0px;
-  }
+  } */
   
   #cart_Links {
     font-size: 12px;

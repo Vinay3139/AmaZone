@@ -1,7 +1,7 @@
 import Products from "./Components/Products/Products";
 import NavItem from "./Components/NavItem/NavItem";
 import Product from "./Components/Products/Product";
-import Offer from "./Components/Offers/Offer"
+import Offer from "./Components/Offers/Offer";
 import Sports from "./Components/Sports/Sports";
 import { Feature } from "./Shared/Common";
 import "./App.css";
@@ -19,6 +19,7 @@ function App() {
       <Products />
       <Offer Feature={Feature} />
       <Sports />
+      <Product />
       {/* <CheckOut/> */}
     </div>
   );

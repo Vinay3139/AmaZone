@@ -1,15 +1,14 @@
-
 import { Feature } from "../../Shared/Common";
 import { CiLocationOn } from "react-icons/ci";
 import { FcLock } from "react-icons/fc";
 import "./Cart.css";
 import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { CountContext } from "../Routing/Routing";
-
+import { CountContext } from "../Reducer/Context";
+// import { CountContext } from "../Routing/Routing";
 
 export default function Cart(props) {
-  const {Function}=useContext(CountContext)
+  const { ProductFetched } = useContext(CountContext);
   // const [Cart,setCart]=useState([])
 
   // useEffect(()=>{
@@ -17,7 +16,7 @@ export default function Cart(props) {
   // },[])
   return (
     <>
-      <div style={{height:"446px"}}>
+      <div style={{ height: "446px" }}>
         <div className="carts">
           <span>{props.AddCart.price}</span>
           <br />
@@ -29,25 +28,27 @@ export default function Cart(props) {
           <span>{props.AddCart.sold}</span>
           <br />
           {/* <input type="dropdown"/> */}
-         Quantity: <select style={{width:"40px"
-    ,height:"20px"}}>
+          Quantity:{" "}
+          <select style={{ width: "40px", height: "20px" }}>
             <option>1</option>
             <option>2</option>
             <option>3</option>
             <option>4</option>
             <option>5</option>
-          </select><br/>
-
-
-          <button className="Carted" onClick={()=>{
-            Function(props.ProductDetail)
-            console.log(props.ProductDetail)
-          }} >Add To Cart</button>
-
-
-
+          </select>
+          <br />
+          <button
+            className="Carted"
+            onClick={() => {
+              // Function(props.ProductDetail)
+              // console.log(props.ProductDetail)
+              ProductFetched(props.ProductDetail);
+            }}
+          >
+            Add To Cart
+          </button>
           <Link to={"/CheckOut/"}>
-          <button className="Cartss">Buy Now</button>
+            <button className="Cartss">Buy Now</button>
           </Link>
           <br />
           <p style={{ marginTop: "15px" }}>
@@ -72,4 +73,3 @@ export default function Cart(props) {
     </>
   );
 }
-

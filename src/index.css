@@ -9,3 +9,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@media  (max-width:1600px) {
+  body{
+    background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,29,57,0.9836309523809523) 0%, rgba(4,29,57,1) 0%, rgba(237,247,247,1) 0%, rgba(26,24,54,1) 0%, rgba(30,45,75,1) 0%, rgba(43,134,235,0.9360119047619048) 0%, rgba(24,96,111,1) 100%);}
+  
+  
+  
+  .Navbar_Media{
+    width:1297px;
+  }
+  .SelectAddress{
+    width: auto;
+  }
+  .Container{
+    width: 414px;
+  }
+  .ImageSlider{
+    width: 360px;
+    height: auto;
+
+  }
+  .Gunda{
+    width: 1270px;
+   
+  }
+  .proper{
+    width: 1290px;
+  }
+  .Media-J{
+    width: 1297px;
+  }
+  .SportsImg{
+    width: 1290px;
+  }
+  .NavItem_Media{
+    width: 1294px;
+    
+  }
+  .clickMedia{
+    width: 1290px;
+    display: flex;
+    align-items: center;
+  }
+  .Shopping_Address{
+    width: 1290px;
+    
+  }
+  .CheckOut_Media{
+    width:1290px;
+    background-color: white;
+  }
+  .shopping_cart{
+    width: 1290px;
+  }
+  #root{
+    width: 1290px;
+  }
+  #page1{
+    width: 1290px;
+  }
+  
+}
+
