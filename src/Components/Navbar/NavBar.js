@@ -31,7 +31,7 @@ export default function NavBar(props) {
     <div className="Navbar_Media">
       <div className="Navbar">
         <Link to="/">
-          <img src="/Images/amazone3" alt="" className="Amazone"></img>
+          <img src="./Images/amazone3" alt="" className="Amazone"></img>
         </Link>
         <Location />
         <Search />
@@ -41,7 +41,7 @@ export default function NavBar(props) {
               <h1>{/* <Hover /> */}</h1>
 
               <p>
-                <img src="/Images/india.webp" alt="" className="India"></img>
+                <img src="./Images/india.webp" alt="" className="India"></img>
                 <FaCaretDown />
               </p>
             </div>

@@ -19,50 +19,50 @@ export const ArrayList = [
 //NavItem
 export const ArrayDot = [
   {
-    Image: "/Images/s1.jpg",
+    Image: "./Images/s1.jpg",
     head: "Upgrade your home amazone Brands ",
     text: "Clothing",
-    image: "/Images/s2.jpg",
+    image: "./Images/s2.jpg",
     text2: "Footwear",
-    image1: "/Images/s3.jpg",
+    image1: "./Images/s3.jpg",
     text1: "Watches",
-    image3: "/Images/s4.jpg",
+    image3: "./Images/s4.jpg",
     text3: "bags & luggage",
     share: "Explore All",
   },
   {
-    Image: "/Images/c1.jpg",
+    Image: "./Images/c1.jpg",
     head: "Car & bike essentials | Up to 60% off",
     text: "Cleaning ",
-    image: "/Images/c2.jpg",
+    image: "./Images/c2.jpg",
     text2: "tyre & rim care",
-    image1: "/Images/c3.jpg",
+    image1: "./Images/c3.jpg",
     text1: "Helments",
-    image3: "/Images/c4.jpg",
+    image3: "./Images/c4.jpg",
     text3: "Vaccum Cleaner",
     share: "Explore All",
   },
   {
-    Image: "/Images/f1.jpg",
+    Image: "./Images/f1.jpg",
     head: "Revamp your home in style",
     text: "Bedsheet ",
-    image: "/Images/f2.jpg",
+    image: "./Images/f2.jpg",
     text2: "Home ",
-    image1: "/Images/f3.jpg",
+    image1: "./Images/f3.jpg",
     text1: "Home Storage",
-    image3: "/Images/f4.jpg",
+    image3: "./Images/f4.jpg",
     text3: "Lighting ",
     share: "Explore All",
   },
   {
-    Image: "/Images/m1.jpg",
+    Image: "./Images/m1.jpg",
     head: "Shop & Pay | Earn rewards daily",
     text: "claim your scratch card",
-    image: "/Images/m2.jpg",
+    image: "./Images/m2.jpg",
     text2: "Reddem your collection",
-    image1: "/Images/m3.jpg",
+    image1: "./Images/m3.jpg",
     text1: "Unlock more ",
-    image3: "/Images/m4.jpg",
+    image3: "./Images/m4.jpg",
     text3: "Explore all offer",
     share: "Explore All",
   },
@@ -71,12 +71,12 @@ export const ArrayDot = [
 // Offers
 export const Feature = [
   {
-    id:1,
-    BeautyImageTwo:"/Images/BeautySmallOne.jpg",
-    BeautyImageOne:"/Images/BeautySmall.jpg",
-    BeautyImage:"/Images/BeautyTen.jpg",
-    Images:"/Images/BeautyNine.jpg",
-    Image: "/Images/BeautyOne.jpg",
+    id: 1,
+    BeautyImageTwo: "./Images/BeautySmallOne.jpg",
+    BeautyImageOne: "./Images/BeautySmall.jpg",
+    BeautyImage: "./Images/BeautyTen.jpg",
+    Images: "./Images/BeautyNine.jpg",
+    Image: "./Images/BeautyOne.jpg",
     Deal: "DEAL OF THE DAY:",
     price: "	₹767.00 (₹1,535 /100)",
     MRP: "M.R.P.:	₹650.00",
@@ -121,18 +121,22 @@ export const Feature = [
     Detail: "Product Detail",
     save_extra: "Save Extra",
     save_extraTwo: "with 2 offers",
-    Partner_Offer:"Partner Offers (2):",
-    Partner_Offer_Two:"Buy more and save up to 10% extra. Offered by Pilgrim India",
-    Bank_Offer:"Bank Offer (2): ",
-    Bank_Offer_Two:"10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
-    Important:"Important information",
-    Safety:"Safety Information",
-    SafetyHead:"Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
-    Indication:"Indications:",
-    IndicationHead:"Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption."
+    Partner_Offer: "Partner Offers (2):",
+    Partner_Offer_Two:
+      "Buy more and save up to 10% extra. Offered by Pilgrim India",
+    Bank_Offer: "Bank Offer (2): ",
+    Bank_Offer_Two:
+      "10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
+    Important: "Important information",
+    Safety: "Safety Information",
+    SafetyHead:
+      "Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
+    Indication: "Indications:",
+    IndicationHead:
+      "Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption.",
   },
   {
-    id:2,
+    id: 2,
     MRP: "M.R.P.:	₹650.00",
     Taxes: "Inclusive of all taxes",
     yousave: "You Save:",
@@ -141,7 +145,7 @@ export const Feature = [
     ItemTwo:
       "REDUCES ACNE MARKS : The Tea Tree & 10% Niacinamide Blemish Remover Serum with 1% Zinc PCA is a potent formulation to diminish blemishes and acne marks. Say hello to blemish-free crystal clear skin!",
     Item: "10% NIACINAMIDE : 10% Niacinamide helps repair the skin barrier and brighten. Combined with 1% Zinc PCA, this lightweight serum helps refin",
-    Image: "/Images/BeautyTwo.jpg",
+    Image: "./Images/BeautyTwo.jpg",
     Deal: "DEAL OF THE DAY",
     price: "₹225.00 (₹225.00/100g)",
     save: "₹25.00 (10%)",
@@ -181,19 +185,22 @@ export const Feature = [
     Detail: "Product Detail",
     save_extra: "Save Extra",
     save_extraTwo: "with 2 offers",
-    Partner_Offer:"Partner Offers (2):",
-    Partner_Offer_Two:"Buy more and save up to 10% extra. Offered by Pilgrim India",
-    Bank_Offer:"Bank Offer (2): ",
-    Bank_Offer_Two:"10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
-    Important:"Important information",
-    Safety:"Safety Information",
-    SafetyHead:"Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
-    Indication:"Indications:",
-    IndicationHead:"Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption."
-  
+    Partner_Offer: "Partner Offers (2):",
+    Partner_Offer_Two:
+      "Buy more and save up to 10% extra. Offered by Pilgrim India",
+    Bank_Offer: "Bank Offer (2): ",
+    Bank_Offer_Two:
+      "10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
+    Important: "Important information",
+    Safety: "Safety Information",
+    SafetyHead:
+      "Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
+    Indication: "Indications:",
+    IndicationHead:
+      "Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption.",
   },
   {
-    id:3,
+    id: 3,
     MRP: "M.R.P.:	₹650.00",
     Taxes: "Inclusive of all taxes",
     yousave: "You Save:",
@@ -202,7 +209,7 @@ export const Feature = [
     ItemTwo:
       "CHEMICAL PEEL CLEARS SKIN - Glycolic Acid exfoliates the top layer of dead skin cells to reveal fresh, radiant skin underneath. It reduces unwanted discolourations of the skin and offers a firm, even skin tone & texture.",
     Item: "CHEMICAL EXFOLIATOR FOR FACE - Salicylic Acid is known for its pore-exfoliating abilities. It regulates sebum production and eliminates stubborn blackheads and whiteheads. Deep cleans pores, fades spots and smooths for even, baby-soft skin",
-    Image: "/Images/BeautyThree.jpg",
+    Image: "./Images/BeautyThree.jpg",
     Deal: "DEAL OF THE DAY",
     price: "New Price:	₹999.00 Price:	₹795.00",
     save: "₹204.00 (20%)",
@@ -242,19 +249,22 @@ export const Feature = [
     Detail: "Product Detail",
     save_extra: "Save Extra",
     save_extraTwo: "with 2 offers",
-    Partner_Offer:"Partner Offers (2):",
-    Partner_Offer_Two:"Buy more and save up to 10% extra. Offered by Pilgrim India",
-    Bank_Offer:"Bank Offer (2): ",
-    Bank_Offer_Two:"10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
-    Important:"Important information",
-    Safety:"Safety Information",
-    SafetyHead:"Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
-    Indication:"Indications:",
-    IndicationHead:"Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption."
-  
+    Partner_Offer: "Partner Offers (2):",
+    Partner_Offer_Two:
+      "Buy more and save up to 10% extra. Offered by Pilgrim India",
+    Bank_Offer: "Bank Offer (2): ",
+    Bank_Offer_Two:
+      "10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
+    Important: "Important information",
+    Safety: "Safety Information",
+    SafetyHead:
+      "Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
+    Indication: "Indications:",
+    IndicationHead:
+      "Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption.",
   },
   {
-    id:4,
+    id: 4,
     MRP: "M.R.P.:	₹650.00",
     Taxes: "Inclusive of all taxes",
     yousave: "You Save:",
@@ -264,7 +274,7 @@ export const Feature = [
       "As extra virgin olive oil is pure and free from any refining chemical",
     Item: "Extra virgin olive oil is made from the process of applying some pressure to the olive seeds. we can safely use that for our skin.",
     save: "₹851.00 (53%)",
-    Image: "/Images/BeautyFour.webp",
+    Image: "./Images/BeautyFour.webp",
     Deal: "DEAL OF THE DAY",
     price: "	₹749.00 (₹749.00 / l)",
     Delivery: "FREE Delivery over ₹499. Fulfilled by Amazon.",
@@ -303,19 +313,22 @@ export const Feature = [
     Detail: "Product Detail",
     save_extra: "Save Extra",
     save_extraTwo: "with 2 offers",
-    Partner_Offer:"Partner Offers (2):",
-    Partner_Offer_Two:"Buy more and save up to 10% extra. Offered by Pilgrim India",
-    Bank_Offer:"Bank Offer (2): ",
-    Bank_Offer_Two:"10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
-    Important:"Important information",
-    Safety:"Safety Information",
-    SafetyHead:"Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
-    Indication:"Indications:",
-    IndicationHead:"Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption."
-  
+    Partner_Offer: "Partner Offers (2):",
+    Partner_Offer_Two:
+      "Buy more and save up to 10% extra. Offered by Pilgrim India",
+    Bank_Offer: "Bank Offer (2): ",
+    Bank_Offer_Two:
+      "10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
+    Important: "Important information",
+    Safety: "Safety Information",
+    SafetyHead:
+      "Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
+    Indication: "Indications:",
+    IndicationHead:
+      "Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption.",
   },
   {
-    id:5,
+    id: 5,
     MRP: "M.R.P.:	₹650.00",
     Taxes: "Inclusive of all taxes",
     yousave: "You Save:",
@@ -325,7 +338,7 @@ export const Feature = [
       "It is ideal for a quick snack, as part of a healthy salad, in kids’ tiffin-boxes or a complete meal for the family",
     Item: "Made using fine quality durum wheat semolina",
     save: "₹851.00 (53%)",
-    Image: "/Images/BeautyFive.webp",
+    Image: "./Images/BeautyFive.webp",
     Deal: "DEAL OF THE DAY",
     price: "	₹7499.00 (₹749.00 / l)",
     Delivery: "FREE Delivery over ₹499. Fulfilled by Amazon.",
@@ -364,19 +377,22 @@ export const Feature = [
     Detail: "Product Detail",
     save_extra: "Save Extra",
     save_extraTwo: "with 2 offers",
-    Partner_Offer:"Partner Offers (2):",
-    Partner_Offer_Two:"Buy more and save up to 10% extra. Offered by Pilgrim India",
-    Bank_Offer:"Bank Offer (2): ",
-    Bank_Offer_Two:"10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
-    Important:"Important information",
-    Safety:"Safety Information",
-    SafetyHead:"Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
-    Indication:"Indications:",
-    IndicationHead:"Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption."
-  
+    Partner_Offer: "Partner Offers (2):",
+    Partner_Offer_Two:
+      "Buy more and save up to 10% extra. Offered by Pilgrim India",
+    Bank_Offer: "Bank Offer (2): ",
+    Bank_Offer_Two:
+      "10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
+    Important: "Important information",
+    Safety: "Safety Information",
+    SafetyHead:
+      "Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
+    Indication: "Indications:",
+    IndicationHead:
+      "Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption.",
   },
   {
-    id:6,
+    id: 6,
     MRP: "M.R.P.:	₹650.00",
     Taxes: "Inclusive of all taxes",
     yousave: "You Save:",
@@ -386,7 +402,7 @@ export const Feature = [
       "ABOUT THIS PRODUCT- Himalayan Natives' 100% Natural Original Cow Ghee is packed with the nutrition that your body needs. Our Cow Ghee﻿﻿﻿ is highly nutritious and contains a rich and authentic flavor and natural aroma. It is a 100% natural and pure cow ghee that is made from the milk of free-range cows that graze exclusively on mineral-rich grass, herbs, and medicinal plants. It has no preservatives or artificial colors.",
     Item: "GREAT SOURCE OF ESSENTIAL NUTRIENTS: Himalayan Natives Natural Cow Ghee is a rich source of essential nutrients. It contains antioxidants, vitamin A, B2, B3, K2, Omega 3, and 9 fatty acids. It is one of the strongest natural antioxidants and helps in taking care of the body's overall health making it a great alternative to refined oils",
     save: "₹851.00 (53%)",
-    Image: "/Images/BeautySix.webp",
+    Image: "./Images/BeautySix.webp",
     Deal: "DEAL OF THE DAY",
     price: "	₹1000.00 (₹749.00 / l)",
     text: "Himalayan Natives 100 Natural Cow Ghee 1L in  Desi ghee | Cow ghee of Original | Pure Cow gh | Pure Cow Ghee in for Bt. Immunity and Aid Hearth Health |",
@@ -425,35 +441,38 @@ export const Feature = [
     Detail: "Product Detail",
     save_extra: "Save Extra",
     save_extraTwo: "with 2 offers",
-    Partner_Offer:"Partner Offers (2):",
-    Partner_Offer_Two:"Buy more and save up to 10% extra. Offered by Pilgrim India",
-    Bank_Offer:"Bank Offer (2): ",
-    Bank_Offer_Two:"10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
-    Important:"Important information",
-    Safety:"Safety Information",
-    SafetyHead:"Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
-    Indication:"Indications:",
-    IndicationHead:"Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption."
-  
+    Partner_Offer: "Partner Offers (2):",
+    Partner_Offer_Two:
+      "Buy more and save up to 10% extra. Offered by Pilgrim India",
+    Bank_Offer: "Bank Offer (2): ",
+    Bank_Offer_Two:
+      "10% Instant Discount up to INR 500 on OneCard Credit Card Trxn. Min purchase value INR 2500 ",
+    Important: "Important information",
+    Safety: "Safety Information",
+    SafetyHead:
+      "Use twice a day, morning & night. Apply under a high SPF sunscreen during the day.",
+    Indication: "Indications:",
+    IndicationHead:
+      "Apply 3-5 drops of serum to clean and dry skin before creams, oils or moisturizers. Spread evenly across the face and neck with your fingertips. Gently pat it on for enhanced absorption.",
   },
 ];
 
 // Sports
 export const Fitness = [
   {
-    image: "/Images/FitnessOne.jpg",
+    image: "./Images/FitnessOne.jpg",
   },
   {
-    image: "/Images/FitnessTwo.jpg",
+    image: "./Images/FitnessTwo.jpg",
   },
   {
-    image: "/Images/FitnessThree.jpg",
+    image: "./Images/FitnessThree.jpg",
   },
   {
-    image: "/Images/FitnessFour.jpg",
+    image: "./Images/FitnessFour.jpg",
   },
   {
-    image: "/Images/FitnessFive.jpg",
+    image: "./Images/FitnessFive.jpg",
   },
 ];
 
@@ -462,23 +481,23 @@ export const Fitness = [
 export const product = [
   {
     Text: "Now India Will Say Bought On Amazon amazone",
-    img: "/Images/123.jpg",
+    img: "./Images/123.jpg",
     link: "Se All Incoming offer",
   },
 
   {
     Text: "Grab the best deals before sales on amazone",
-    img: "/Images/h1.jpg",
+    img: "./Images/h1.jpg",
     link: "Se All Incoming offer",
   },
   {
     Text: "Sell on Amazone with 70% off on selling free",
-    img: "/Images/h2.jpg",
+    img: "./Images/h2.jpg",
     link: "Se All Incoming offer",
   },
   {
     Text: "Grab the best deals before sales on amazone",
-    img: "/Images/h3.jpg",
+    img: "./Images/h3.jpg",
     link: "Se All Incoming offer",
   },
 ];
